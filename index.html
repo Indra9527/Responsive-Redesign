@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>Responsive Redesign</title>
+  </head>
+  <body>
+    <div class="m-2 p-2">
+        <h1 class="text-center">Responsive Redesign</h1>
+    </div>
+    
+    <div class="m-5 p-5 mt-2 text">
+        <h2>Project Overview</h2>
+        <div>
+            <p>
+                This project required me to select a public website to visit, analyze its shortcomings and then build a website for improvement, especially the issue of responsiveness. I needed to build a responsive website that could support screens of all three sizes: PC, tablet and phone. Here's how I did it.
+            </p>
+        </div>
+    </div>
+
+    <div class="m-5 p-5 text">
+        <h2>Analysis</h2>
+        <p>I chose this site because as a first time user, I felt that the design of the navigation bar was not very friendly and did not support the screen response of the tablet, which made me feel that it needed to be improved.</p>
+        <p>Here is the screenshot of the website and the link to <a href="https://thedirtpod.com/episodes">Click Here</a>.</p>
+            <div class="d-flex">
+            <img class="col-6 original me-5" src="img/original.png" alt="origianl">
+                <div class="col-6 ms-4">
+                <div class="m-0">
+                    
+                    <h3>Usability</h3>
+                    <br>
+                    <ul>
+                        <li>The site has very small navigation bar buttons, which is not user-friendly.</li>
+                        <li>The site has too much white space at the top, but the content sections are too close together, and the ratio is not suitable for usability.</li>
+                        <li>The site supports web and mobile browsing, but it doesn't support tablet or middle size, and the navigation bar buttons overlap.</li>
+                        <li>The site's image ratio is too large, with one image taking up about a quarter of the screen, and the content is too tightly packed for reading.</li>
+                        <li>The "Read More" button is not obvious and provides a picture and subtitle as a hyperlink to form the conceptual model not agree learnablility.</li>
+                    </ul>
+                </div>
+                <br><br>
+                <div>
+                    <h3>Accessibility</h3>
+                    <br>
+                    <ul>
+                        <li>The "Read More" button is too low contrast for users to read.</li>
+                        <li>Also, the time and the text for the button are not obvious with the light grey.</li>
+                        <li>Redundant link: having three hyperlinks pointing to the same place in a single card is redundant and impractical, causing confusion and confusion to users.</li>
+                        <li>Some buttons do not use the aria tag to provide valid information to the user.</li>
+                        <li>The header and footer should be the same color. It is better to put the table of contents and logo in the header.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="m-5 p-5 text">
+        <h2>Low-fidelity Wireframing</h2>
+        <p>Here is my lo-fi frame that shows three different screen framework. And it also shows the footer if scrolling to the buttom. This prototype could let us know about how will it change. Bascailly, the main part is the navigation and different screen layout. Although the tablet only show one column, when it use as horizontal, it will dispaly two column as well.</p>
+        <div>
+            <img src="img/web.png" alt="lo-fi-web" class="lofi">
+            <img src="img/Tablet.png" alt="lo-fi-tablet" class="lofi">
+            <img src="img/Phone.png" alt="lo-fi-phone" class="lofi">
+        </div>
+        
+    </div>
+
+    <div class="m-5 p-5 text">
+        <h2>Visual Design Style</h2>
+        <p>Here are some style I may need to use for my hi-fi. Becasue the original website is using yellow, white, and black which are main color of logo. Then I am also going to use it and make yellow as main theme. Also I change the style of button and use card to contain the episodes.</p>
+        <div class="d-flex justify-content-center">
+            <img src="img/style.png" alt="style" class="style">
+        </div>
+        
+    </div>
+
+    <div class="m-5 p-5 text">
+        <h2>High-Fidelity Prototyping</h2>
+        <p>Here are my hi-fi prototypes, the annotated indictated that like the size of font and color using, but for the margin and padding, since it is changing responsively, I didn't metions a lots of this. By the way, the size of tablet is ipad pro which is larger than regular so that could put two column.</p>
+        <div>
+            <img src="img/web1.png" alt="hi-fi-web" class="hi-web">
+            <img src="img/Tablet1.png" alt="hi-fi-tablet">
+            <img src="img/Phone1.png" alt="hi-fi-phone" class="hi-phone">
+        </div>
+        
+    </div>
+
+    <div class="m-5 p-5 text">
+        <h2>Conclusion</h2>
+        <p>Based on the above wireframes and prototypes, I recreated the website page using HTML and CSS. Here is a link to the website:</p>
+        <div class="d-grid gap-2 d-md-block col-2 mx-auto"><a class="btn btn-lg btn-info rounded-5"  href="redesign/episodes.html"><h5>New Website Page Episodes</h5></a></div>
+        <div>
+            <p><h4>Some features for new website page:</h4></p>
+            <ul>
+                <li>The website properly scaled for mobile, desktop, and tablet screen sizes.</li>
+                <li>It use collapse button for the navigation bar when small screen to make the function clearer.</li>
+                <li>The layout using card to make each episode seperatly could be more readable.</li>
+                <li>It also change some grey color which is low contrast to yellow or orange to make it more pretty and comfotable.</li>
+                <li>The button responsive for hover is changing the color that follow the them of the website.</li>
+                <li>The website will fixed the navigation bar when the screen become smaller, good for reading.</li>
+                <li>The button for each bar is bigger and more obvious to click rather than using picture or text.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="p-3">
+        <h1 class="text-center">Thank you for reading:)</h1>
+    </div>
+
+  </body>
+</html>
