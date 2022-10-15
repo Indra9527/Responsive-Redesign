@@ -45,6 +45,10 @@ h2 {
     background-color: #E3C280;
 }
 
+.btt:hover {
+    background-color: darksalmon;
+}
+
 
 @media (max-width: 1400px) {
     #tiny {
